@@ -36,13 +36,17 @@
 }
 
 .Component-home {
-  background-image: url("http://i66.tinypic.com/6z7m2v.jpg");
+  background-image: url("http://i68.tinypic.com/29yl2ky.jpg");
   height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
+
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+
 
   h1 {
     font-size: 71px;
