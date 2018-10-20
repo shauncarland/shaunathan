@@ -15,7 +15,6 @@ class App extends Component {
         <div>
           <div className="App">
           <Switch>
-          <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
             <Route path={`${process.env.PUBLIC_URL}/`} component={Home} />
           </Switch>
           </div>
