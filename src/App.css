@@ -1,28 +1,69 @@
 .App {
-  text-align: center;
-}
+  text-align: center; }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+  height: 80px; }
 
 .App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: white;
-}
+  color: white; }
 
 .App-title {
-  font-size: 1.5em;
-}
+  font-size: 1.5em; }
 
 .App-intro {
-  font-size: large;
-}
+  font-size: large; }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.parent {
+  color: blue; }
+  .parent .child {
+    color: pink; }
+
+.Component-home {
+  background-image: url("http://i66.tinypic.com/6z7m2v.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed; }
+  .Component-home h1 {
+    font-size: 71px;
+    line-height: 0px;
+    padding-bottom: 10px;
+    margin-top: 30px; }
+  .Component-home h2 {
+    color: grey; }
+  .Component-home a {
+    text-decoration: none;
+    color: black; }
+  .Component-home .contact-icon {
+    width: 20px;
+    padding-right: 10px; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .Component-home h1 {
+      font-size: 40px; }
+    .Component-home h2 {
+      font-size: 13px;
+      color: black; }
+    .Component-home h3 {
+      font-size: 12px; }
+    .Component-home .landing-splash {
+      width: 100%;
+      padding-top: 0px;
+      top: 0%; } }
+
+.landing-splash {
+  background: rgba(0, 0, 0, 0.03);
+  position: absolute;
+  top: 2%;
+  padding-top: 10px; }
