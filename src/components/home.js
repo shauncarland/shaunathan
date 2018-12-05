@@ -9,7 +9,7 @@ class Home extends Component {
           <h2>... is a software engineer in New York City</h2>
           <h3>
           <a href="mailto:shauncarland@gmail.com">Contact</a> &nbsp; &nbsp;
-          <a href="https://drive.google.com/file/d/1Y6xF9PXp6iQzWRCPJ6emYdxEjX6rh5Pn/view?usp=sharing">Resume</a> &nbsp; &nbsp;
+          <a href="https://drive.google.com/file/d/1s7kdtXQdgWJ5Wg78UX_ya7VFo6GBH5kn/view?usp=sharing">Resume</a> &nbsp; &nbsp;
           <a href="https://calendly.com/shauncarland">Book A Meeting</a>
           </h3>
 
