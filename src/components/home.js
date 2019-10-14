@@ -14,10 +14,6 @@ class Home extends Component {
           </h3>
 
           <div className="contact-icons-container">
-            <a href="https://www.instagram.com/shauncarland/" target="_blank">
-              <img className="contact-icon" src="http://icons-for-free.com/free-icons/png/512/1620006.png"/>
-            </a>
-
             <a href="https://www.linkedin.com/in/shauncarland/" target="_blank">
               <img className="contact-icon" src="https://image.freepik.com/free-icon/linkedin-logo-ios-7-interface-symbol_318-33633.jpg"/>
             </a>
